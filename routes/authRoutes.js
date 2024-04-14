@@ -7,7 +7,7 @@ const {test,registerUser,loginUser,getProfile} = require('../controllers/authCon
 router.use(
     cors({
         credentials:true,
-        origin:'http://localhost:5173'
+        origin:'https://crypto-tracker-kappa-rust.vercel.app/'
     })
 )
 
