@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 
 const corsOptions = {
-  origin: 'https://crypto-tracker-kappa-rust.vercel.app/', 
+  origin: 'https://crypto-tracker-kappa-rust.vercel.app', 
   // replace with your frontend's origin
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']
